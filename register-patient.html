@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Patient</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hospital Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <center>
+        <div class="container">
+            <h2>Register Patient</h2>
+            <form id="patient-registration-form">
+                <table>
+                    <tr>
+                        <td><label for="patient-name">Name:</label></td>
+                        <td><input type="text" id="patient-name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="patient-email">Email:</label></td>
+                        <td><input type="email" id="patient-email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="patient-password">Password:</label></td>
+                        <td><input type="password" id="patient-password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="patient-age">Age:</label></td>
+                        <td><input type="number" id="patient-age" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="patient-history">Medical History:</label></td>
+                        <td><textarea id="patient-history" rows="2" required></textarea></td>
+                    </tr>
+                </table>
+                <button type="submit" class="button">Register as Patient</button>
+            </form>
+        </div>
+    </center>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hospital Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
